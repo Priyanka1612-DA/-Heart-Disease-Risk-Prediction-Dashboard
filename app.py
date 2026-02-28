@@ -20,6 +20,7 @@ st.markdown("""
 }
 .stMetric {
     background-color: white;
+    color: black;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0px 4px 15px rgba(0,0,0,0.05);
@@ -152,3 +153,4 @@ if st.sidebar.button("🔍 Predict Risk"):
 else:
     st.info("👈 Enter patient details in the sidebar and click Predict Risk.")
     st.markdown("### 👩‍💻 Developed by Priyanka kumari | Data Science Portfolio Project")
+
